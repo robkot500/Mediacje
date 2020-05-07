@@ -1,13 +1,19 @@
 @import "partials/_reset";
+@import 'partials/_grid';
+@import 'partials/_mixins';
+@import 'partials/_media';
+
 body{
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+
 .header-container{
   width: 80vw;
-  height: 22vw;
+  height: 400px;
   margin: auto;
   .nav{
-    height: 3.5vw;
+    height: 60px;
     width: 80vw;
     background-color: #303030;
     position: fixed;
@@ -16,6 +22,12 @@ body{
     right: 0;
     margin: auto;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile{
+    display: none;
   }
   ul{
     display: flex;
@@ -26,21 +38,37 @@ body{
   a{
     color: white;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 25px;
     margin: 1vw;
-
   }
-  .header-image{
-    background-image: url('./../assets/tree.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    width: 100%;
+  li{
     height: 100%;
-    border-bottom: solid 1vw #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-}
+  li:first-child{
+    background-color: #405819;
+    width: 290px;
+  }
+  li:hover{
+    background-color:#cbcbcb;
+    border-radius: 5px;
+  }
+  li:hover a{
+    color: black;
+  }
 
+}
+.header-image{
+  background-image: url('/../assets/tree.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: calc(300px + 5vw);
+  border-bottom: solid 20px #303030;
+}
 
 .green,
 .yellow{
@@ -55,3 +83,5 @@ body{
 .yellow{
   background-color: yellow;
 }
+
+
