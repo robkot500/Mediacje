@@ -10,7 +10,7 @@
     
     li{
       display:none;
-      height: 60px;
+      height: 100px;
       width: 110px;
       background-color: #cbcbcb;
       justify-content: center;
@@ -25,21 +25,31 @@
     }
     .mobile:first-child{
       display: none;
-      height: 60px;
+      height: 100px;
       width: 110px;
       background-color: #cbcbcb;
     }
     .start:hover{
       background-color: #cbcbcb;
     }
+    .ham-wrapper{
+      position: relative;
+      height: 100%;
+      width: 60px;
+      padding: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .mobile-wrapper{
-      position: fixed;
-      top:-362px;
-      right: 0px;
+      position: absolute;
+      top:60px;
+      right: -30px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      height: 240px;
       a:hover{
         background-color: #919191;
         height: 45px;
