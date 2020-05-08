@@ -70,7 +70,7 @@
 
    
     
-    .ham-wrapper:hover{
+    .ham-wrapper:hover, .ham-wrapper:active{
       .ham1 {
         -webkit-transform: rotate(-45deg) translate(-9px, 6px);
         transform: rotate(-45deg) translate(-5px, 4px);
