@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="col-12">
                     <div className="box box-1 nav">
                         <ul>
-                         <li className='start'><RouterLink to="/">Masz prawo do mediacji</RouterLink></li>
+                         <li className='start disable'><RouterLink to="/">Masz prawo do mediacji</RouterLink></li>
                             <li className='przebieg'><RouterLink to="/przebieg">Przebieg</RouterLink></li>
                             <li className='zasady'><RouterLink to="/zasady">Zasady</RouterLink></li>
                             <li className='oMnie'><RouterLink to="/oMnie">O mnie</RouterLink></li>
@@ -48,7 +48,7 @@ const Header = () => {
                     <div className="box box-1 header-image">
 
                     </div>
-                    <div className="green"></div>
+                    <div className="blue">BBBBB</div>
                 </div>
             </div>
         </>
