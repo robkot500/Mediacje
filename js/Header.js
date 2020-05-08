@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import ReactDOM from "react-dom";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from 'react-scroll';
@@ -6,7 +6,20 @@ import { Link } from 'react-scroll';
 
 
 
+
+
+
+
 const Header = () => {
+    useEffect(() => {
+        const cont = document.querySelector(".ham-wrapper");
+    // const mobile = document.querySelector('.mobile');
+    console.log(cont);
+    cont.addEventListener('click',function () {
+        cont.classList.toggle('click')
+        //mobile.classList.toggle('mobile-switch')
+    })
+    })
     return (
         <>
             <div className="row header-container">
@@ -19,6 +32,7 @@ const Header = () => {
                             <li className='oMnie'><RouterLink to="/oMnie">O mnie</RouterLink></li>
                             <li className='kontakt'><RouterLink to="/kontakt">Kontakt</RouterLink></li>
                         </ul>
+                        
                         <div className="ham-wrapper">
                             <div className="ham1"></div>
                             <div className="ham2"></div>
