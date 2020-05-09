@@ -1,6 +1,9 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   body{
     width: 100vw;
+    .container{
+      width: 100vw;
+    }
   .header-container{
     width: 100%;
     .nav{
@@ -25,6 +28,9 @@
       width: 240px;
       background-color: #405819;
     }
+    li a:hover{
+      color: white;
+  }
     .mobile:first-child{
       display: none;
       height: 100px;
@@ -44,7 +50,7 @@
     .mobile-wrapper{
       position: absolute;
       top:60px;
-      right: -30px;
+      right: -10px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -85,5 +91,9 @@
         display: flex;
       }
     }
-  }  
+    .ppp{
+      width: 100vw;
+    }
+  }
+  
   }

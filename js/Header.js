@@ -45,10 +45,9 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="box box-1 header-image">
+                    <div className="header-image">
 
                     </div>
-                    <div className="blue">BBBBB</div>
                 </div>
             </div>
         </>

@@ -1,6 +1,6 @@
-$gutter: 10px;
+$gutter: 0;
 @mixin grid($cols) {
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 800px) {
     display: flex;
     @for $i from 1 through $cols {
       .col-#{$i} {
@@ -11,7 +11,7 @@ $gutter: 10px;
 }
 .container {
   max-width: 1400px;
-  width: 100%;
+  width: 80vw;
   margin: 0px auto;
   padding: 0 $gutter;
   .row {
