@@ -9,15 +9,23 @@
 body{
   font-family: 'Roboto Condensed', sans-serif;
 }
-.container{
-  
+.nav{
+  height: 60px;
+  width: 100%;
+  background-color: #303030;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-container{
   width: 100%;
   margin: auto;
-  .dwa{
-     width: 100%;
-  }
+}
   .nav{
     height: 60px;
     width: 100%;
@@ -25,11 +33,17 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-  
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .desktop{
+      background-color:#cbcbcb;
+      border-radius: 5px;
+      a{
+        color: black;
+      }
+    }
   }
   .mobile{
     display: none;
@@ -56,14 +70,19 @@ body{
     background-color: #405819;
     width: 290px;
   }
-  li:hover{
-    background-color:#cbcbcb;
-    border-radius: 5px;
-  }
+//   li:hover{
+//     background-color:#cbcbcb;
+//     border-radius: 5px;
+//   }
   
-  li a:hover{
-    color: black;
-}
+//   li a:hover{
+//     color: black;
+// }
+// .desktop li:first-child{
+//   background-color: black;
+// }
+
+
 .header-image{
   background-image: url('./../assets/tree.jpg');
   background-repeat: no-repeat;
@@ -73,7 +92,7 @@ body{
   height: calc(200px + 8vw);
   border-bottom: solid 20px #303030;
 }
-}
+
 .ppp{
   
   background-color: lightblue;
