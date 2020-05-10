@@ -19,12 +19,12 @@ const Header = () => {
         const liDesktops = document.querySelectorAll(".desktop-wrapper li")
         const aDesktop = document.querySelectorAll(".desktop a")
         
-        hamburger.addEventListener('mouseenter', function () {
+        hamburger.addEventListener('click', function () {
             hamburger.classList.toggle('click')
         })
         console.log(hamburger);
         
-        mobileWrapper.addEventListener("mouseleave", function (){
+        mobileWrapper.addEventListener("click", function (){
             hamburger.classList.toggle('click')
         })
         for(let i = 0; i<aBackgrounds.length;i++){
