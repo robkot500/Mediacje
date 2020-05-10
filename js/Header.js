@@ -26,9 +26,9 @@ const Header = () => {
         })
         console.log(hamburger);
         
-        mobileWrapper.addEventListener("touchend", function (){
-            hamburger.classList.toggle('click')
-        })
+        // mobileWrapper.addEventListener("touchend", function (){
+        //     hamburger.classList.toggle('click')
+        // })
         for(let i = 0; i<aBackgrounds.length;i++){
             aBackgrounds[i].addEventListener("touchstart",function(){
                 this.classList.toggle('a-background')
