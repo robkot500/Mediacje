@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <>
             <div className="row header-container">
-                <div className="col-12">
+                <div className="col-12 dwa">
                     <div className="box box-1 nav">
                         <ul>
                          <li className='start disable'><RouterLink to="/">Masz prawo do mediacji</RouterLink></li>
