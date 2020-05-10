@@ -33,9 +33,9 @@ const Header = () => {
             aBackgrounds[i].addEventListener("touchstart",function(){
                 this.classList.toggle('a-background')
             })
-            aBackgrounds[i].addEventListener("touchend",function(){
-                this.classList.toggle('a-background')
-            })
+            // aBackgrounds[i].addEventListener("touchend",function(){
+            //     this.classList.toggle('a-background')
+            // })
         }  
         for(let i = 0; i<liDesktops.length;i++){
             liDesktops[i].addEventListener('touchstart',function(){
