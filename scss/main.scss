@@ -38,10 +38,10 @@ body{
     justify-content: space-between;
     align-items: center;
     .desktop{
-      background-color:#cbcbcb;
+      background-color:red;
       border-radius: 5px;
       a{
-        color: black;
+        color: green;
       }
     }
   }
@@ -81,10 +81,18 @@ body{
 // .desktop li:first-child{
 //   background-color: black;
 // }
+// .desktop{
+//   background-color: blueviolet;
+//   a{
+//     color: red;
+//   }
+// }
+
+
 
 
 .header-image{
-  background-image: url('/../assets/tree.jpg');
+  background-image: url('./../assets/tree.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;

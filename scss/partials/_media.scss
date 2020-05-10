@@ -71,7 +71,7 @@
      
     }
     .a-background{
-      background-color: #919191;
+      background-color: blue;
     }
     
     
@@ -107,5 +107,6 @@
   @media(hover: hover) and (pointer: fine) {
     nav a:hover {
         background: yellow;
+        color: red;
     }
 }
