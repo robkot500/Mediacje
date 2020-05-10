@@ -30,7 +30,7 @@ const Header = () => {
         //     hamburger.classList.toggle('click')
         // })
         for(let i = 0; i<aBackgrounds.length;i++){
-            aBackgrounds[i].addEventListener("touchstart",function(){
+            aBackgrounds[i].addEventListener("click",function(){
                 this.classList.toggle('a-background')
             })
             // aBackgrounds[i].addEventListener("touchend",function(){
