@@ -19,29 +19,29 @@ const Header = () => {
         const liDesktops = document.querySelectorAll(".desktop-wrapper li")
         const aDesktop = document.querySelectorAll(".desktop a")
         
-        hamburger.addEventListener('mouseenter', function () {
+        hamburger.addEventListener('click', function () {
             hamburger.classList.toggle('click')
         })
-        mobileWrapper.addEventListener("mouseleave", function (){
+        mobileWrapper.addEventListener("click", function (){
             hamburger.classList.toggle('click')
         })
-        for(let i = 0; i<aBackgrounds.length;i++){
-            aBackgrounds[i].addEventListener("mouseenter",function(){
-                this.classList.toggle('a-background')
-            })
-            aBackgrounds[i].addEventListener("mouseleave",function(){
-                this.classList.toggle('a-background')
-            })
-        }  
-        for(let i = 0; i<liDesktops.length;i++){
-            liDesktops[i].addEventListener('mouseenter',function(){
-                this.classList.toggle('desktop')
-            })
-            liDesktops[i].addEventListener('mouseleave',function(){
-                this.classList.toggle('desktop')
-            })
+        // for(let i = 0; i<aBackgrounds.length;i++){
+        //     aBackgrounds[i].addEventListener("mouseenter",function(){
+        //         this.classList.toggle('a-background')
+        //     })
+        //     aBackgrounds[i].addEventListener("mouseleave",function(){
+        //         this.classList.toggle('a-background')
+        //     })
+        // }  
+        // for(let i = 0; i<liDesktops.length;i++){
+        //     liDesktops[i].addEventListener('mouseenter',function(){
+        //         this.classList.toggle('desktop')
+        //     })
+        //     liDesktops[i].addEventListener('mouseleave',function(){
+        //         this.classList.toggle('desktop')
+        //     })
 
-        }  
+        // }  
     })
 
     return (
