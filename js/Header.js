@@ -30,18 +30,18 @@ const Header = () => {
             hamburger.classList.toggle('click')
         })
         for(let i = 0; i<aBackgrounds.length;i++){
-            aBackgrounds[i].addEventListener("mouseenter",function(){
+            aBackgrounds[i].addEventListener("touchstart",function(){
                 this.classList.toggle('a-background')
             })
-            aBackgrounds[i].addEventListener("mouseleave",function(){
+            aBackgrounds[i].addEventListener("touchend",function(){
                 this.classList.toggle('a-background')
             })
         }  
         for(let i = 0; i<liDesktops.length;i++){
-            liDesktops[i].addEventListener('mouseenter',function(){
+            liDesktops[i].addEventListener('touchstart',function(){
                 this.classList.toggle('desktop')
             })
-            liDesktops[i].addEventListener('mouseleave',function(){
+            liDesktops[i].addEventListener('touchend',function(){
                 this.classList.toggle('desktop')
             })
 
