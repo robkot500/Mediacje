@@ -19,12 +19,14 @@ const Header = () => {
         const liDesktops = document.querySelectorAll(".desktop-wrapper li")
         const aDesktop = document.querySelectorAll(".desktop a")
         
-        hamburger.addEventListener('click', function () {
+        hamburger.addEventListener('touchstart', function () {
             hamburger.classList.toggle('click')
+            console.log('assasa');
+            
         })
         console.log(hamburger);
         
-        mobileWrapper.addEventListener("click", function (){
+        mobileWrapper.addEventListener("touchend", function (){
             hamburger.classList.toggle('click')
         })
         for(let i = 0; i<aBackgrounds.length;i++){
