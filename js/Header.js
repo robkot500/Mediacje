@@ -3,19 +3,19 @@ import ReactDOM from "react-dom";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from 'react-scroll';
 
-useEffect(()=>{
-    const hamburger = document.querySelector(".ham-wrapper");
-    hamburger.addEventListener('mouseenter', function () {
-        hamburger.classList.toggle('click')
-    })
-})
+
 
 
 
 
 
 const Header = () => {
-    
+    useEffect(()=>{
+        const hamburger = document.querySelector(".ham-wrapper");
+        hamburger.addEventListener('mouseenter', function () {
+            hamburger.classList.toggle('click')
+        })
+    })
     return (
         <>
             <div className='nav'>
@@ -26,7 +26,7 @@ const Header = () => {
                     <li><RouterLink to="/oMnie">O mnie</RouterLink></li>
                     <li><RouterLink to="/kontakt">Kontakt</RouterLink></li>
                 </ul>
-                <div className="ham-wrapper" onclick="void(0)">
+                <div className="ham-wrapper">
                     <div className="ham1"></div>
                     <div className="ham2"></div>
                     <div className="ham3"></div>
