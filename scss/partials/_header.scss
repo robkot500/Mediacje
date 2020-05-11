@@ -43,16 +43,18 @@
       background-color: $sec-color;
       width: 290px;
   }
-  li:hover,
-  li:focus,
-  li:active{
+  li:hover
+  // li:focus,
+  // li:active
+  {
       background-color: $hover-color;
       border-radius: 5px;
   }
     
-  li a:hover,
-  li a:focus,
-  li a:active{
+  li a:hover
+  // li a:focus,
+  // li a:active
+  {
       color: $font-color;
   }
   
