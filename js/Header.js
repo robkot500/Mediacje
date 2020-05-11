@@ -4,50 +4,16 @@ import { Link as RouterLink } from "react-router-dom";
 import { Link } from 'react-scroll';
 
 
-
-
+// const hamburger = document.querySelector(".ham-wrapper");
+// hamburger.addEventListener('mouseenter', function () {
+//     hamburger.classList.toggle('click')
+// })
 
 
 
 
 const Header = () => {
-    useEffect(() => {
-        const hamburger = document.querySelector(".ham-wrapper");
-        const mobileWrapper = document.querySelector(".ham-wrapper");
-        const aBackgrounds = document.querySelectorAll(".mobile a");
-        const aFirst =document.querySelector("li:first-child a")
-        const liDesktops = document.querySelectorAll(".desktop-wrapper li")
-        const aDesktop = document.querySelectorAll(".desktop a")
-        
-        hamburger.addEventListener('touchstart', function () {
-            hamburger.classList.toggle('click')
-            console.log('assasa');
-            
-        })
-        console.log(hamburger);
-        
-        // mobileWrapper.addEventListener("touchend", function (){
-        //     hamburger.classList.toggle('click')
-        // })
-        for(let i = 0; i<aBackgrounds.length;i++){
-            aBackgrounds[i].addEventListener("click",function(){
-                this.classList.toggle('a-background')
-            })
-            // aBackgrounds[i].addEventListener("touchend",function(){
-            //     this.classList.toggle('a-background')
-            // })
-        }  
-        for(let i = 0; i<liDesktops.length;i++){
-            liDesktops[i].addEventListener('touchstart',function(){
-                this.classList.toggle('desktop')
-            })
-            liDesktops[i].addEventListener('touchend',function(){
-                this.classList.toggle('desktop')
-            })
-
-        }  
-    })
-
+    
     return (
         <>
             <div className='nav'>
@@ -58,7 +24,7 @@ const Header = () => {
                     <li><RouterLink to="/oMnie">O mnie</RouterLink></li>
                     <li><RouterLink to="/kontakt">Kontakt</RouterLink></li>
                 </ul>
-                <div className="ham-wrapper">
+                <div className="ham-wrapper click">
                     <div className="ham1"></div>
                     <div className="ham2"></div>
                     <div className="ham3"></div>
