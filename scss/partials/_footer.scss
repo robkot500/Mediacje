@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: $sec-color;
+    height: 70px;
+    .box-3{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $sec-font-color;
+        font-size: 20px;
+    }
+
+
+}

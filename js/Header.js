@@ -10,15 +10,15 @@ import { Link } from 'react-scroll';
 
 
 const Header = () => {
+    
     useEffect(()=>{
         const hamburger = document.querySelector(".ham-wrapper");
         hamburger.addEventListener('click', function () {
             hamburger.classList.toggle('click')
         })
-        // hamburger.addEventListener('touchend', function () {
-        //     hamburger.classList.toggle('click')
-        // })
     })
+        
+
     return (
         <>
             <div className='nav'>

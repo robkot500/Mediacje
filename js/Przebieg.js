@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from './Footer';
 
 const Przebieg = () => {
     return (
+        <>
         <div className="row">
             <div className="col-9">
                 <div className="box box-2">
@@ -25,6 +27,8 @@ const Przebieg = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
 
     )
 }

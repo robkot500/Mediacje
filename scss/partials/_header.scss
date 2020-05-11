@@ -1,0 +1,84 @@
+
+
+.nav{
+  height: 60px;
+  width: 100%;
+  background-color: $main-color;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .header-container{
+    width: 100%;
+    margin: auto;
+  }
+  
+  
+  .mobile{
+      display: none;
+  }
+  ul{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 100%;
+  }
+  a{
+      color: $sec-font-color;
+      text-decoration: none;
+      font-size: 25px;
+      margin: 1vw;
+  }
+  li{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  li:first-child{
+      background-color: $sec-color;
+      width: 290px;
+  }
+  li:hover,
+  li:focus,
+  li:active{
+      background-color: $hover-color;
+      border-radius: 5px;
+  }
+    
+  li a:hover,
+  li a:focus,
+  li a:active{
+      color: $font-color;
+  }
+  
+  
+  
+  .header-image{
+    background-image: url('./../assets/tree.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: calc(200px + 8vw);
+    border-bottom: solid 20px $main-color;
+  }
+  
+  .box-2{
+    background-color: pink;
+    padding: 20px;
+    
+   
+  }
+  
+  .col-9,
+  .col-3{
+    border: 1px solid black;
+  }
+  
+  
+
