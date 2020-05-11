@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from 'react-scroll';
 
+useEffect(()=>{
+    const hamburger = document.querySelector(".ham-wrapper");
+    hamburger.addEventListener('mouseenter', function () {
+        hamburger.classList.toggle('click')
+    })
+})
 
-// const hamburger = document.querySelector(".ham-wrapper");
-// hamburger.addEventListener('mouseenter', function () {
-//     hamburger.classList.toggle('click')
-// })
 
 
 
