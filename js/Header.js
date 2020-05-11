@@ -24,7 +24,7 @@ const Header = () => {
                     <li><RouterLink to="/oMnie">O mnie</RouterLink></li>
                     <li><RouterLink to="/kontakt">Kontakt</RouterLink></li>
                 </ul>
-                <div className="ham-wrapper click">
+                <div className="ham-wrapper" onclick="void(0)">
                     <div className="ham1"></div>
                     <div className="ham2"></div>
                     <div className="ham3"></div>
