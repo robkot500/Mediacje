@@ -8,6 +8,7 @@ import Przebieg from "./Przebieg";
 import Zasady from "./Zasady";
 import Omnie from "./Omnie";
 import Kontakt from "./Kontakt";
+import ScrollToTop from "./ScrollToTop"
 
 const App = () =>{
 
@@ -15,6 +16,7 @@ const App = () =>{
         <>
         <div className="container">
            <HashRouter>
+           <ScrollToTop/>
                <Header/>
                 <Switch>
 
