@@ -7,9 +7,45 @@
         background-color: black;
         margin-bottom: 2.3px;
     }
-    .contact-slogan{
+    .slogan{
         font-size: 1.5vw;
         margin-bottom: 0.5vw;
         padding-left: 1vw;
     }
+    .content-text-right{
+        padding: 1vw;
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+    .icon{
+        padding: 1vw;
+        font-size: 1.4vw;
+        margin: -0.3vw auto;
+    }
+    .fas{
+        margin-right: 1.5vw;
+    }
+    .mediator-wrapper{
+       
+        padding: 0.7vw;
+        border: solid 1px #CCC;
+        box-shadow: 1px 1px 5px #999;
+        margin: 1vw;
+    }
+    .mediator{
+        background-image: url('./../assets/Mediator-Iwona-Kotwicka.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        padding-top: 66.66%;
+        
+    }
+    .content-text-left{
+        padding: 1vw;
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+    
 }
