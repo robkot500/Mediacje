@@ -4,27 +4,12 @@
 @import 'partials/_media';
 @import 'partials/_variables';
 @import 'partials/_header';
-@import 'partials/footer';
+@import 'partials/_footer';
+@import 'partials/_content';
 
 *{
   box-sizing: border-box;
 }
 body{
   font-family: $font;
-}
-
-.box-22{
-  background-color: lawngreen;
-}
-.box-23{
-  background-color: lightblue;
-}
-.box-24{
-  background-color: lightslategray;
-}
-.box-25{
-  background-color: green;
-}
-.box-22{
-  background-color: tomato;
 }

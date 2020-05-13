@@ -47,6 +47,15 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            <div className="row header-container">
+                <div className="col-12">
+                    <div className="box box-2">
+                        <p>„Eskalacja wszelkich napięć rozpoczyna się wraz z porzuceniem dialogu"
+                        </p>
+                        <p>Julius Döpfner</p>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

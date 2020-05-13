@@ -1,6 +1,8 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   body{
-
+    .container{
+      width: 100%;
+    }
     
     .nav{
       @include hamburger;
@@ -83,5 +85,30 @@
           display: flex;
         }
     } 
+    .box-4{
+      .contact-slogan{
+          text-align: center;
+          font-size: 4.5vw;
+      }
   }
   }
+  }
+  @media screen and (min-width: 801px) and (max-width: 1200px) {
+    .container{
+      width: 100%;
+    }
+    }
+  @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .container{
+      width: 90%;
+    }
+    }
+  @media screen and (min-width: 1301px) and (max-width: 1500px) {
+      .container{
+        width: 80%;
+      }
+  }
+  @media screen and (min-width: 1401px) {
+    
+  }
+  

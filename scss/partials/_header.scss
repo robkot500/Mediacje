@@ -71,16 +71,23 @@
   }
   
   .box-2{
-    background-color: pink;
-    padding: 20px;
-    
-   
+    height: 7vw;
+    font-size: 1.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia;
+    font-style: italic;
+    p{
+      padding: 0.2vw;
+    }
   }
   
-  .col-9,
-  .col-3{
-    border: 1px solid black;
-  }
+  // .col-9,
+  // .col-3{
+  //   border: 1px solid black;
+  // }
   
   
 
