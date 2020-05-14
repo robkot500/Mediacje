@@ -72,17 +72,23 @@
   }
   
   .box-2{
-    height: 7vw;
-    font-size: 1.7vw;
+    height: calc(100px + 2vw);
+    width: 100%;
+    font-size: calc(15px + 0.8vw);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: Georgia;
     font-style: italic;
+    margin: auto;
+    padding: 2vw;
     p{
       padding: 0.2vw;
+      text-align: center;
+     
     }
+  
   }
   
   // .col-9,

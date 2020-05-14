@@ -17,7 +17,7 @@ const Przebieg = () => {
                     <p className='content-text-left'>Wykształcenie zdobyłam na Uniwersytecie Śląskim w Katowicach, Uniwersytecie Pedagogicznym w Krakowie, Akademii Jana Długosza w Częstochowie, Wyższej Szkole Biznesu i Nauk o Zdrowiu, Instytucie Amity w Warszawie i Centrum EEG BFB we Wrocławiu.</p>
                     <p className='content-text-left'>Pracowałam jako nauczyciel, wychowawca, pedagog i terapeuta z zakresu pomocy psychologiczno-pedagogicznej, autyzmu, neuroterapeuta i trener Treningu Zastępowania Agresji.</p>
                     <p className='content-text-left'>Jestem wpisana na listę Mediatorów Stałych prowadzoną przez Sąd Okręgowy w Gliwicach co jest gwarancją rzetelności i kompetencji.</p>
-                    <p className='content-text-left'>Jestem przekonana ze potrafię Państwu pomóc w skutecznie rozwiązać konflikty weirzę w dialog, zdrowy rozsądek.</p>
+                    <p className='content-text-left'>Jestem przekonana ze potrafię Państwu pomóc w skutecznie rozwiązać konflikty wierzę w dialog, zdrowy rozsądek.</p>
                   
                 </div>
             </div>
@@ -30,7 +30,7 @@ const Przebieg = () => {
                     <div className='icon'><i className="fas fa-phone"></i>tel. 698 691 198</div>
                     <div className='icon'><i className="fas fa-at"></i>iwonakotwicka@wp.pl</div>
                     <div className='icon'><i className="fas fa-map-marked"></i>44-200 Rybnik, Wodna 65</div>
-                    <div className="content-text-right">Adres do korespondencji.Chętnie się z Państwem spotkam po umówieniu terminu. Zapraszam.</div>
+                    <div className="content-text-right">Adres do korespondencji. Chętnie się z Państwem spotkam po umówieniu terminu. Zapraszam.</div>
                 </div>
             </div>
         </div>
