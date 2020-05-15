@@ -1,3 +1,4 @@
+
 .box-3,
 .box-4{
     padding: calc(10px + 1vw);
@@ -18,9 +19,9 @@
         line-height: calc(15px + 1vw);
     }
     .icon{
-        padding: calc(15px + 0.5vw) 0;
+        padding: calc(10px + 0.3vw) 0;
         font-size: calc(16px + 0.5vw);
-        margin: -0.3vw auto;
+        margin: -0.3vw -0.3vw -0.3vw 0.8vw;
         font-weight: bold;
     }
     .fas{
@@ -47,10 +48,10 @@
         padding: 1vw;
         font-size: calc(15px + 0.5vw);
         line-height: calc(15px + 1vw);
+        margin-bottom: 1vw;
     }
     p:last-child{
         font-weight: bold;
         font-style: italic;
       }
-    
 }

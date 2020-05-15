@@ -2,37 +2,37 @@ import React from 'react'
 import ReactDOM from "react-dom";
 import './../scss/main.scss';
 import Header from "./Header"
-import {HashRouter, Switch, Route, Redirect} from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import Home from "./Home";
 import Przebieg from "./Przebieg";
 import Zasady from "./Zasady";
-import Omnie from "./Omnie";
-import Kontakt from "./Kontakt";
+import About from "./About";
+import Contact from "./Contact";
 import ScrollToTop from "./ScrollToTop"
 
-const App = () =>{
+const App = () => {
 
-    return(
+    return (
         <>
-        <div className="container">
-           <HashRouter>
-           <ScrollToTop/>
-               <Header/>
-                <Switch>
+            <div className="container">
+                <HashRouter>
+                    <ScrollToTop />
+                    <Header />
+                    <Switch>
 
-                    <Route exact path="/" component={Home} />
-                    <Route path="/przebieg" component={Przebieg}/>
-                    <Route path="/zasady" component={Zasady}/>
-                    <Route path="/oMnie" component={Omnie}/>
-                    <Route path="/kontakt" component={Kontakt}/>
+                        <Route exact path="/" component={Home} />
+                        <Route path="/przebieg" component={Przebieg} />
+                        <Route path="/zasady" component={Zasady} />
+                        <Route path="/oMnie" component={About} />
+                        <Route path="/kontakt" component={Contact} />
 
-                </Switch>
-        </HashRouter>
-        </div>
+                    </Switch>
+                </HashRouter>
+            </div>
         </>
     )
 }
 
 
 
-ReactDOM.render(<App/>, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
