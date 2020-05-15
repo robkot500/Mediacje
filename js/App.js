@@ -19,13 +19,11 @@ const App = () => {
                     <ScrollToTop />
                     <Header />
                     <Switch>
-
                         <Route exact path="/" component={Home} />
                         <Route path="/przebieg" component={Process} />
                         <Route path="/zasady" component={Rules} />
                         <Route path="/oMnie" component={About} />
                         <Route path="/kontakt" component={Contact} />
-
                     </Switch>
                 </HashRouter>
             </div>
