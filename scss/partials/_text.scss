@@ -1,10 +1,12 @@
 
-.box-5{
+.box-5,
+.box-4{
     padding: calc(10px + 1vw);
     .text{
         padding: 1vw;
-        font-size: calc(15px + 0.5vw);
-        line-height: calc(15px + 1vw);
+        font-size: calc(20px + 0.5vw);
+        line-height: calc(20px + 1vw);
+        text-align: justify;
     }
     .line{
         width: 100%;
@@ -13,7 +15,7 @@
         margin-bottom: 2.3px;
     }
     .slogan{
-        font-size: calc(15px + 1vw);
+        font-size: calc(25px + 1vw);
         margin-bottom: 0.5vw;
         padding-left: 1vw;
     }
@@ -24,7 +26,7 @@
     .home-img{
         width: 100%;
         padding-top: 90%;
-        background-image: url(/../assets/mediacje.png);
+        background-image: url(./../assets/mediacje.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -36,7 +38,8 @@
     }
     .text-slogan{
         float: left;
-        width: 450px;
+        width: 45%;
+        margin-right: 3%;
         font-size: calc(22px + 0.5vw);
         line-height: calc(15px + 1vw);
         font-weight: 700;

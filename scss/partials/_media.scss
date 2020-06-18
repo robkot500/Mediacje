@@ -2,9 +2,9 @@
   body{
     .container{
       width: 100%;
-    .icon{
-        margin-left: 10vw;
-    }  
+    // .icon{
+    //     margin-left: 10vw;
+    // }  
       .contact{
        display: flex;
        flex-direction: column;
@@ -106,21 +106,27 @@
     .box-3,
     .box-4{
       .slogan{
-        font-size: calc(20px + 1vw);
+        // font-size: calc(20px + 1vw);
       }
       .content-text-left,
       .content-text-right{
-        padding: 5vw 1.5vw;
-        font-size: calc(20px + 0.5vw);
-        line-height: calc(20px + 1vw);
+        padding: 7vw 1.5vw;
+        font-size: calc(25px + 0.5vw);
+        line-height: calc(25px + 1vw);
         margin-bottom: 1vw;
       }
       .icon{
-        font-size: calc(20px + 0.5vw);
+        font-size: calc(25px + 0.5vw);
       }
       
   }
-  
+  .box-5{
+    .slogan{
+      // font-size: calc(25px + 1vw);
+      margin-bottom: 1vw;
+      padding-left: 0;
+  }
+  }
   }
   }
   @media screen and (min-width: 801px) and (max-width: 1200px) {
@@ -141,4 +147,31 @@
   @media screen and (min-width: 1401px) {
     
   }
+
+
+  @media screen and (max-width: 500px) {
+    .container{
+    .box-5{
+      .text{
+        padding: 4vw;
+        font-size: calc(25px + 0.5vw);
+        line-height: calc(25px + 1vw);
+    }
+      .home-img-wrapper{
+        width: 85%;
+        
+        float: unset;
+        margin: 6%;
+        
+    }
+      .text-slogan{
+       
+        width: 100%;
+        
+        // font-size: calc(22px + 0.5vw);
+        // line-height: calc(15px + 1vw);
+      }
+  }
+}
+}
   
