@@ -2,12 +2,25 @@
 .box-5,
 .box-4{
     padding: calc(10px + 1vw);
-    .text{
+    .text,
+    .text-rule{
         padding: 1vw;
         font-size: calc(17px + 0.5vw);
         line-height: calc(17px + 1vw);
         text-align: justify;
     }
+    .text-rule{
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+    .text-rule:nth-child(4){
+        padding-top: 2vw;
+    }
+    .fa-play{
+        margin-right: 1vw;
+        font-size: calc(12px + 0.4vw);
+    }
+
     .line{
         width: 100%;
         height: 1px;
@@ -33,10 +46,18 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-left:1vw;
+      
         
     }
-    .home-text1{
-        
+    .home-rules{
+        width: 100%;
+        padding-top: 40%;
+        background-image: url(/../assets/mediacja.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // margin-left:1vw;
+        // padding-right:1vw;
     }
     .text-slogan{
         float: left;
