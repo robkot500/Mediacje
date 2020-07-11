@@ -20,17 +20,50 @@
     
     .nav{
       @include hamburger;
-      
+      li{
+        display:none;
+        height: 100px;
+        width: 110px;
+        background-color: #cbcbcb;
+        justify-content: center;
+        align-items: center;
+      }
+      li:first-child{
+        display: flex;
+        height: 100%;
+        width: 240px;
+        background-color: #405819;
+        a{
+          width: 240px;
+        }
+      }
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 100px;
+        height: 47px;
+      }
+      li:first-child:hover{
+        background-color:#cbcbcb;
+        border-radius: 5px;
+      }
+      .mobile-wrapper a:hover{
+        background-color: #919191;
+      }
+      .mobile:first-child{
+        display: none;
+        height: 100px;
+        width: 110px;
+        background-color: #cbcbcb;
+      }
     }
     .box-2{
       font-size: calc(18px + 0.5vw);
     }
-    .mobile:first-child{
-      display: none;
-      height: 100px;
-      width: 110px;
-      background-color: #cbcbcb;
-    }
+   
     .ham-wrapper{
       position: relative;
       height: 100%;
@@ -50,39 +83,7 @@
       flex-direction: column;
       height: 240px;
     }
-    li{
-      display:none;
-      height: 100px;
-      width: 110px;
-      background-color: #cbcbcb;
-      justify-content: center;
-      align-items: center;
-    }
-    li:first-child{
-      display: flex;
-      height: 100%;
-      width: 240px;
-      background-color: #405819;
-      a{
-        width: 240px;
-      }
-    }
-    a{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-      border-radius: 5px;
-      width: 100px;
-      height: 47px;
-    }
-    li:first-child:hover{
-      background-color:#cbcbcb;
-      border-radius: 5px;
-    }
-    .mobile-wrapper a:hover{
-      background-color: #919191;
-    }
+    
     .click{
         .ham1 {
           -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -157,7 +158,8 @@
         font-size: calc(20px + 0.5vw);
         line-height: calc(20px + 1vw);
     }
-      .home-img-wrapper{
+      .home-img-wrapper,
+      .process-img-wrapper{
         width: 85%;
         
         float: unset;

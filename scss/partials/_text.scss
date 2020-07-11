@@ -16,6 +16,14 @@
     .text-rule:nth-child(4){
         padding-top: 2vw;
     }
+    li{
+        // list-style-type: circle;
+        font-size: calc(17px + 0.5vw);
+        line-height: calc(17px + 1vw);
+        text-align: justify;
+        padding-left: 1vw;
+       
+    }
     .fa-play{
         margin-right: 1vw;
         font-size: calc(12px + 0.4vw);
@@ -56,8 +64,18 @@
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        // margin-left:1vw;
-        // padding-right:1vw;
+    }
+    .process-img-wrapper{
+        width: 40%;
+        float: right;
+    }
+    .process-img{
+        width: 100%;
+        padding-top: 91%;
+        background-image: url(./../assets/mediator.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .text-slogan{
         float: left;
